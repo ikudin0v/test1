@@ -1,0 +1,21 @@
+.label {
+	padding: 2px;
+}
+.item {
+	padding: 2px;
+}
+
+#root {
+	padding: 10px;
+	border: solid #EA9215 1px;
+	width: fit-content;
+	background-color: #EEEEEE;
+	color: #303841;
+	font-size: large;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.label:hover{
+border-radius: 2px;
+color: #EA9215;
+background-color: hsl(0, 0%, 79%);
+}

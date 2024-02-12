@@ -101,6 +101,7 @@ const getChild = (head) => {
 
 		if (item.node === 1) {
 			name.textContent = item.name + " (-)"
+			name.className = "label"
 			document.getElementById(parent).appendChild(name)
 			document.getElementById(parent).appendChild(service)
 			document.getElementById(item.id + "label").style = "cursor: pointer"
@@ -108,6 +109,7 @@ const getChild = (head) => {
 			getChild(item.id)
 		} else {
 			name.textContent = item.name + " (" + item.price + ")"
+			name.className = "item"
 			document.getElementById(parent).appendChild(name)
 		}
 	})
