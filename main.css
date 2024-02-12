@@ -1,5 +1,6 @@
 .label {
 	padding: 2px;
+	cursor: pointer;
 }
 .item {
 	padding: 2px;
